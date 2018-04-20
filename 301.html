@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Redirection</title>
+        <meta name="author" content="Yusatsu Nao">
+        <meta name="copyright" content="Copyright &#169; Yusatsu Nao">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/server.css">
+    	<link rel="stylesheet" href="css/404.css">
+        <script src="js/jquery.min.js"></script>
+        <meta http-equiv="refresh" content="10; url=https://chinatsuki.github.io/" />
+        <style type="text/css">
+            section {
+                height: 100%;
+                background: #484266; }
+        </style>
+  	</head>
+  	<body>
+        <section>
+            <div style="background: #F1A1AC;" class="top-border"></div>
+            <div style="text-align: center; background: #6C7594; color: #f1a1ac;" id="main-content-head">
+                HTTP STATUS CODE : 301 Redirection
+            </div>
+        	<div class="main-content">
+                <div class="errorpage">
+                    <h1>301</h1>
+                    <h2>You are detected using mobile device, for better experience you will be redirected to mobile page shortly.</h2>
+                    You will be redirected to main mobile page in <span id="countdowntimer">10 </span> seconds
+                    <script type="text/javascript">
+                        var timeleft = 10;
+                        var downloadTimer = setInterval(function(){
+                        timeleft--;
+                        document.getElementById("countdowntimer").textContent = timeleft;
+                        if(timeleft <= 0)
+                            clearInterval(downloadTimer);
+                        },1000);
+                    </script>
+                </div>
+            </div>
+        </section>
+	</body>
+</html>

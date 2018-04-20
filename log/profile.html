@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Profile</title>
+		<meta name="author" content="Yusatsu Nao">
+		<meta name="Description" content="Farise's profile in Yusatsu Nao Log Page">
+		<meta name="Keywords" content="Farise's profile and information">
+		<meta name="copyright" content="Copyright &#169; Yusatsu Nao">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="https://chinatsuki.github.io/img/naologo.png">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/sidebar.js"></script>
+		<style type="text/css">
+		body {
+			display: block;
+			height: 100%;
+			width: 100%;
+			margin: 0 auto;
+			overflow: hidden;
+			background-color: #777;
+			position: fixed;
+			padding: 0em;
+			background-color: #919191;
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 1.75em;
+			font-family: 'sans', serif; }
+		* {
+			box-sizing: border-box; }
+		div {
+			transition: all 0.25s ease 0s; }
+		#profile-img { 
+			border-radius: 50%;
+			width: 40%;
+			margin: 0px 50px 0px 0px; }
+		@media only screen and (max-width: 500px) {
+			body {
+				font-family: 'Bellefair', serif; }
+			#profile-img {
+				border-radius: 50%;
+				width: 100%;
+				margin: 0px 0px 20px 0px; }
+			.book-reader section p {
+			    font-size: 16px; } }
+		</style>
+		<script type="text/javascript">
+			day=new Date()     //..get the date
+			x=day.getHours()    //..get the hour
+			if(x>=0 && x<5) {
+			document.write('<style type="text/css">#invert:checked ~ label:before { content: "Night"; } .book-reader section { text-shadow: 0 0px #fff; } label[for="invert"]:before { content: "Day"; } .book-reader section { background: black; color: white; } .book-reader section h1, .book-reader section p { color: white; } #invert:checked ~ section { background: #fafafa; color: #666666; } #invert:checked ~ section p, #invert:checked ~ section h1 { color: #666; }</style>')
+			} else
+			if (x>=18 && x<24) {
+			document.write('<style type="text/css">#invert:checked ~ label:before { content: "Night"; } .book-reader section { text-shadow: 0 0px #fff; } label[for="invert"]:before { content: "Day"; } .book-reader section { background: black; color: white; } .book-reader section h1, .book-reader section p { color: white; } #invert:checked ~ section { background: #fafafa; color: #666666; } #invert:checked ~ section p, #invert:checked ~ section h1 { color: #666; }</style>')
+			}
+		</script>
+	</head>
+<body>
+	<section>
+		<article class="book-reader">
+			<input type="checkbox" id="fullscreen">
+			<label for="fullscreen"></label>
+			<input type="checkbox" id="invert">
+			<label for="invert"></label>
+			<header>
+				<h1>Writer</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="../index">Home / ホーム</a></li>
+					<li><a href="contents">Contents / コンテン</a></li>
+				</ul>
+			</nav>
+			<section>
+			    <div class="page">
+					<img id="profile-img" src="img/pp.png" align="left"><h2>Introduction</h2><p>Greetings my friends! My name is <span>"Farise"</span> and thank you for visiting my site including this log page, a place where I write everything inside my thoughts. This is my profile page where I write all of my stories, project and some other things.<br/><br/>
+					<span>― Name / 名前</span><br/>Farise<br/>
+					<span>― Age / 年齢</span><br/>Secret<br/>
+					<span>― Hobby / 趣味</span><br/>Writing story, Playing game, Watching anime, Drawing, Collecting picture, Listening to music, Listening to ASMR<br/>
+					<span>― Job / お仕事</span><br/>Front-end Web Developer, Illustrator, Writer, Designer<br/>
+					<span>― Language Profiency / 言語能力</span><br/>日本語, English, Bahasa Indonesia<br/><br/>
+					<span>― Favourite Anime</span><br/>New Game!, GATE, Expelled From Paradise, Outbreak Company, Zero's Familiar<br/>
+					<span>― Played Game ( 2018 )</span><br/>Counter Strike Global Offensive. Honkai Impact 3, Sword Art Online Integral Factor<br/><br/>
+					<span>― Contact</span><br/><a href="../about">Click here to check my contacs</a></p><br/><br/>
+			    	<div class="line-it-button" data-lang="en" data-type="like" data-url="https://chinatsuki.github.io/log/" data-share="true" style="display: none;"></div>
+				</div>
+			</section>
+		</article>
+		</section>
+        <script>
+            $("#leftside-navigation .sub-menu > a").click(function(e) {
+                $("#leftside-navigation ul ul").slideUp(), $(this).next().is(":visible") || $(this).next().slideDown(), e.stopPropagation()
+            })
+        </script>
+        <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+	</body>
+</html>
