@@ -239,7 +239,7 @@ ul.tab li a:focus, .active {
 div#main-content-body {
 	position: relative;
 	display: block;
-	overflow: auto; }
+	overflow: hidden; }
 #button-aw {
 	text-align: center;
 	background: #005D42;
