@@ -288,7 +288,8 @@ div#main-content-body {
     width: auto;
     padding: 2rem;
     margin: 0px auto;
-    font-size: 1rem; }
+    font-size: 1rem;
+    text-align: left; }
 #icon, #rainmeter {
     width: auto;
     padding: 0rem;
