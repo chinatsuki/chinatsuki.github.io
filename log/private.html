@@ -30,6 +30,16 @@
 		div {
 			transition: all 0.25s ease 0s; }
 		</style>
+		<script type="text/javascript">
+			day=new Date()     //..get the date
+			x=day.getHours()    //..get the hour
+			if(x>=0 && x<5) {
+			document.write('<style type="text/css">#invert:checked ~ label:before { content: "Night"; } .book-reader section { text-shadow: 0 0px #fff; } label[for="invert"]:before { content: "Day"; } .book-reader section { background: black; color: white; } .book-reader section h1, .book-reader section p { color: white; } #invert:checked ~ section { background: #fafafa; color: #666666; } #invert:checked ~ section p, #invert:checked ~ section h1 { color: #666; }</style>')
+			} else
+			if (x>=18 && x<24) {
+			document.write('<style type="text/css">#invert:checked ~ label:before { content: "Night"; } .book-reader section { text-shadow: 0 0px #fff; } label[for="invert"]:before { content: "Day"; } .book-reader section { background: black; color: white; } .book-reader section h1, .book-reader section p { color: white; } #invert:checked ~ section { background: #fafafa; color: #666666; } #invert:checked ~ section p, #invert:checked ~ section h1 { color: #666; }</style>')
+			}
+		</script>
 	</head>
 <body>
 	<section>

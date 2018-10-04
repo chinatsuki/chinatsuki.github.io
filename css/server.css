@@ -154,8 +154,7 @@ nav ul li:hover .marrow {
     margin: 0px auto;
     text-align: center; }
 .logo img {
-	min-width: 200px;
-	max-width: 200px;
+	width: auto;
 	padding: 20px;
 	margin: 0px auto; }
 .sidebar {

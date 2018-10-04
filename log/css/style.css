@@ -110,7 +110,7 @@
   background: -webkit-linear-gradient(left, #dddddd 0%, #fafafa 9%, #fafafa 91%, #dddddd 100%);
   background: linear-gradient(to right, #dddddd 0%, #fafafa 9%, #fafafa 91%, #dddddd 100%); }
 .book-reader section .page {
-  max-width: 40em;
+  max-width: 100%;
   margin: 1.75em auto; }
 .book-reader section p {
   margin: 1.75em auto;
