@@ -110,7 +110,7 @@
   background: -webkit-linear-gradient(left, #dddddd 0%, #fafafa 9%, #fafafa 91%, #dddddd 100%);
   background: linear-gradient(to right, #dddddd 0%, #fafafa 9%, #fafafa 91%, #dddddd 100%); }
 .book-reader section .page {
-  max-width: 100%;
+  max-width: 900px;
   margin: 1.75em auto; }
 .book-reader section p {
   margin: 1.75em auto;
@@ -265,7 +265,7 @@ label[for="invert"]:before {
 .logo {
   text-align: center; }
 .logo img {
-  width: 240px;
+  width: 128px;
   padding: 20px;
   margin: 0px auto; }
 .sidebar {
