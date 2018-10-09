@@ -102,7 +102,7 @@ nav ul li:hover .marrow {
     position: relative;
     width: 100%;
     text-align: center;
-    margin-top: 30px; }
+    margin-top: 5px; }
 .mobile-menu a {
     padding: 8px;
     text-decoration: none;
@@ -520,7 +520,7 @@ footer a:hover {
 @media only screen and (max-width: 480px) {
 		.logo img {
 			max-width: 128px;
-			padding: 20px;
+			padding: 5px;
 			margin: 0px auto; }
 		.pc-menu {
 			display: none; }
@@ -557,6 +557,8 @@ footer a:hover {
 			border-radius: 4px;
 			text-align: center;
 			font: 20px 'Zekton Rg'; }
+		.sidebar #leftside-navigation ul li a {
+			padding: 10px 30px 10px 0; }
 		.main-content {
 			padding: 1rem 1rem; }
 		.main-content-home {
