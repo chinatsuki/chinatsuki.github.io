@@ -32,6 +32,16 @@
 		div {
 			transition: all 0.25s ease 0s; }
 		</style>
+		<script type="text/javascript">
+			day=new Date()     //..get the date
+			x=day.getHours()    //..get the hour
+			if(x>=0 && x<5) {
+			document.write('<style type="text/css">#invert:checked ~ label:before { content: "Night"; } .book-reader section { text-shadow: 0 0px #fff; } label[for="invert"]:before { content: "Day"; } .book-reader section { background: black; color: white; } .book-reader section h1, .book-reader section p { color: white; } #invert:checked ~ section { background: #fafafa; color: #666666; } #invert:checked ~ section p, #invert:checked ~ section h1 { color: #666; }</style>')
+			} else
+			if (x>=18 && x<24) {
+			document.write('<style type="text/css">#invert:checked ~ label:before { content: "Night"; } .book-reader section { text-shadow: 0 0px #fff; } label[for="invert"]:before { content: "Day"; } .book-reader section { background: black; color: white; } .book-reader section h1, .book-reader section p { color: white; } #invert:checked ~ section { background: #fafafa; color: #666666; } #invert:checked ~ section p, #invert:checked ~ section h1 { color: #666; }</style>')
+			}
+		</script>
 	</head>
 <body>
 	<section>
@@ -51,6 +61,9 @@
 			<section>
 			    <div class="page">
 					<h1>Server Log</h1>
+					Update 2.1.5 // 2018.04.27 | Moving official blog post to log page<br/>
+					Update 2.1.5 // 2018.04.27 | Disqus log page deleted<br/>
+					▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀<br/>
 					Update 2.1.4 // 2018.04.27 | Updated server log page<br/>
 					Update 2.1.4 // 2018.04.27 | ゆめのかたち added<br/>
 					Update 2.1.4 // 2018.04.27 | 歌に形はないけれど added<br/>
@@ -83,7 +96,7 @@
 					<br/>
 					<span>First Draft</span> : 2017 年 12 月 24 日 / 15:18 / GMT+7
 					<br/>
-					<span>Last Update</span> : 2018 年 04 月 01 日 / 13:33 / GMT+7
+					<span>Last Update</span> : 2018 年 11 月 09 日 / 10:25 / GMT+7
 				</div>
 			</section>
 		</article>
