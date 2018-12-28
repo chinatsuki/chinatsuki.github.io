@@ -5,6 +5,8 @@ a {
 	color: #000000; }
 .navigation {
 	margin: 30px; }
+h1 {
+	margin: 2px; }
 h3 {
 	font-family: "PT Sans", sans-serif;
 	font-weight: 900; }
@@ -284,7 +286,7 @@ div#main-content-body {
     font-size: 1rem; }
 .image {
 	padding-top: 5px; }
-#sticker, #theme {
+#sticker, #theme, #emoji {
     width: auto;
     padding: 2rem;
     margin: 0px auto;
@@ -393,7 +395,7 @@ div#main-content-body {
 			margin: 30px; }
 		nav ul li a {
 			padding: 35px 10px 10px 10px; } 
-		#sticker, #theme {
+		#sticker, #theme, #emoji {
 		    padding: 10px;
 		    border-bottom: 2px solid #00B900; }
 		#main-content-body .image img {
