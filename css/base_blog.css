@@ -169,8 +169,8 @@ h1 {
 	height: 80px;
 	background: rgba(255, 255, 255, 0.8); }
 #main-content-comment {
-	max-width: 75rem;
-	padding: 2rem 0.5rem;
+	max-width: 72rem;
+	padding: 2rem 2rem;
 	margin: 0px auto;
 	text-align: center;
 	font-size: 1rem;

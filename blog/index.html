@@ -1,17 +1,18 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Blog - Yusatsu Nao - Official Site</title>
+        <title>Search - Yusatsu Nao - Official Site</title>
         <meta name="author" content="Yusatsu Nao">
         <meta name="Description" content="Yusatsu Nao's Official Site. Blog page, check out the latest news about my works in this page and other news about me.">
         <meta name="Keywords" content="Yusatsu Nao, Yusatsu, Nao, Yusatsu Nao Official Site, Fukumura Tatsuya,Anime,Rainmter,Icons,Windows,LINE,Theme,Sticker,LINE THEME,LINE Sticker,Anime Rainmeter,Anime Icons,Creator">
         <meta name="copyright" content="Copyright &#169; Yusatsu Nao">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/server.css">
-        <link rel="stylesheet" href="../css/base_blog.css">
-  	</head>
-  	<body>
+        <link rel="stylesheet" href="../css/base_search.css">
+    </head>
+    <body>
         <header>
             <div class="header">
                 <nav class="navigation">
@@ -22,7 +23,7 @@
                 <div id="menu">
                     <div id="sidebarmenu">
                         <div class="logo">
-                            <img alt="Yusatsu Nao's Logo" src="../img/yn.png" onClick="location.href='../index'"/>
+                            <img alt="Yusatsu Nao's Logo" src="../img/yn.png" onclick="close_menu()"/>
                         </div>
                         <div class="sidebar">
                             <div id="leftside-navigation" class="nano">
@@ -69,191 +70,56 @@
         <section>
             <div style="background: #0095FF;" class="top-border"></div>
             <div style="text-align: center; color: #0095FF;" id="main-content-head">
-                <a class="blog-title">BLOG</a> | <a class="blog-title" href="search">POST SEARCH</a>
+                <a class="title">POST SEARCH</a>
             </div>
-        	<div class="main-content">
-                <!-- THE LATEST BLOG POST -->
-                <div class="blogpostlat">
-                    <div id="post-title">
-                        <a id="post-link-12a" class="post-title-title" href="#"><span id="post-title-12">N/A</span></a>
-                        <br class="post-div"/>
-                        <a id="post-date-12" class="post-title-date">N/A</a>
-                        <br/>
-                       <a class="post-title-author">Posted by Yusatsu Nao</a>
-                    </div>
-                    <div id="post-description">
-                        Hi and Good afternoon guys long time no see. A past few days I release some new version of my LINE Theme *I don't know why I make these things*. Anyway for this update I change the color theme to .. <a id="post-link-12b" href="#">Read More →</a>
-                    </div>
-                    <div id="post-img">
-                        <img alt="New Line Theme with Low Price Glowing Fragment by Yusatsu Nao" src="../img/banner/banner8.jpg" style="width: 100%;"></img>
-                    </div>
+            <div class="main-content">
+                <div id="searchinput">
+                    <input type="text" id="searchbox" onkeyup="myFunction()" placeholder="Search blog posts..." title="Type in a title">
                 </div>
-                <!-- THE OLD BLOG POST -->
-                <div class="blogpost">
-                    <div id="post-title">
-                        <a id="post-link-11a" class="post-title-title" href="#"><span id="post-title-11">N/A</span></a>
-                        <br class="post-div"/>
-                        <a id="post-date-11" class="post-title-date">N/A</a>
-                        <br/>
-                       <a class="post-title-author">Posted by Yusatsu Nao</a>
-                    </div>
-                    <div id="post-description">
-                        Hello guys, welcome to my site, today I release my fifth LINE Theme, I hope next I can make more LINE Theme and of course LINE Sticker, but first I need to finish my real life problem, after that I .. <a id="post-link-11b" href="#">Read More →</a>
-                    </div>
-                    <div id="post-img">
-                        <img alt="Glowing Fragment Scarlet Land LINE Theme by Yusatsu Nao" src="../img/banner/banner7.jpg" style="width: 100%;"></img>
-                    </div>
-                </div>
-                <div class="blogpost">
-                    <div id="post-title">
-                        <a id="post-link-10a" class="post-title-title" href="#"><span id="post-title-10">N/A</span></a>
-                        <br class="post-div"/>
-                        <a id="post-date-10" class="post-title-date">N/A</a>
-                        <br/>
-                       <a class="post-title-author">Posted by Yusatsu Nao</a>
-                    </div>
-                    <div id="post-description">
-                        Hello guys, today is Wednesday, June 21 year 2017, and today I'm releasing my new Theme, well, I just change some part and the color, because, maybe.. some of you don't like blue color so I create the theme with .. <a id="post-link-10b" href="#">Read More →</a>
-                    </div>
-                    <div id="post-img">
-                        <img alt="Glowing Fragment Ground Zero LINE Theme by Yusatsu Nao" src="../img/banner/banner6.jpg" style="width: 100%;"></img>
-                    </div>
-                </div>
-                <div class="blogpost">
-                    <div id="post-title">
-                        <a id="post-link-9a" class="post-title-title" href="#"><span id="post-title-9">N/A</span></a>
-                        <br class="post-div"/>
-                        <a id="post-date-9" class="post-title-date">N/A</a>
-                        <br/>
-                       <a class="post-title-author">Posted by Yusatsu Nao</a>
-                    </div>
-                    <div id="post-description">
-                        Hello again guys, what a nice day. Wait, not nice for me, still busy taking care of my real life. well, forget it. Today, I post Anime Icon for this season, spring 2017. Sorry I'm late posting this because I'm... <a id="post-link-9b" href="#">Read More →</a>
-                    </div>
-                    <div id="post-img">
-                        <img alt="Anime Icon Spring 2017 Folder Icon for Windows by Yusatsu Nao" src="../img/banner/banner5.jpg" style="width: 100%;"></img>
-                    </div>
-                </div>
-                <div class="blogpost">
-                    <div id="post-title">
-                        <a id="post-link-8a" class="post-title-title" href="#"><span id="post-title-8">N/A</span></a>
-                        <br class="post-div"/>
-                        <a id="post-date-8" class="post-title-date">N/A</a>
-                        <br/>
-                       <a class="post-title-author">Posted by Yusatsu Nao</a>
-                    </div>
-                    <div id="post-description">
-                        Hello guys, welcome to my site. right now, this the eight post I've created for this site. Did you notice there's something different in this site?  well, if you don't notice it, my domain name is changed from yusatsunao.github.io to... <a id="post-link-8b" href="#">Read More →</a>
-                    </div>
-                    <div id="post-img">
-                        <img alt="Welcome to my 'New Domain' by Yusatsu Nao" src="../img/banner/bannerblog.jpg" style="width: 100%;"></img>
-                    </div>
-                </div>
-                <div class="blogpost">
-                    <div id="post-title">
-                        <a id="post-link-7a" class="post-title-title" href="#"><span id="post-title-7">N/A</span></a>
-                        <br class="post-div"/>
-                        <a id="post-date-7" class="post-title-date">N/A</a>
-                        <br/>
-                       <a class="post-title-author">Posted by Yusatsu Nao</a>
-                    </div>
-                    <div id="post-description">
-                        Hellooo guyss, today I'm releasing my third LINE Theme. It's all about race, beat all opponent, win the race and go around the world. This is a simple theme, so people can use this theme. If you like racing theme... <a id="post-link-7b" href="#">Read More →</a>
-                    </div>
-                    <div id="post-img">
-                        <img alt="Race Driver LINE Theme by Yusatsu Nao" src="../img/banner/banner4.jpg" style="width: 100%;"></img>
-                    </div>
-                </div>
-                <div class="blogpost">
-                    <div id="post-title">
-                        <a id="post-link-6a" class="post-title-title" href="#"><span id="post-title-6">N/A</span></a>
-                        <br class="post-div"/>
-                        <a id="post-date-6" class="post-title-date">N/A</a>
-                        <br/>
-                       <a class="post-title-author">Posted by Yusatsu Nao</a>
-                    </div>
-                    <div id="post-description">
-                        Hello guys, welcome to my official site. Right now I post an Anime Icon for this season, winter 2017. Actually it's not winter in here, it's rain season. ahh well forget it. This time I make Anime Icon for windows... <a id="post-link-6b" href="#">Read More →</a>
-                    </div>
-                    <div id="post-img">
-                        <img alt="Anime Icon Winter 2017 Folder Icon for Windows by Yusatsu Nao" src="../img/banner/banner3.jpg" style="width: 100%;"></img>
-                    </div>
-                </div>
-                <div class="blogpost">
-                    <div id="post-title">
-                        <a id="post-link-5a" class="post-title-title" href="#"><span id="post-title-5">N/A</span></a>
-                        <br class="post-div"/>
-                        <a id="post-date-5" class="post-title-date">N/A</a>
-                        <br/>
-                       <a class="post-title-author">Posted by Yusatsu Nao</a>
-                    </div>
-                    <div id="post-description">
-                        Hello guys, welcome to my official site. Happy New Year to you all, right now I post my second LINE Theme, well it takes a long time to release because the reviewer take a vacation. Maybe I should take a... <a id="post-link-5b" href="#">Read More →</a>
-                    </div>
-                    <div id="post-img">
-                        <img alt="Glowing Fragment LINE Theme by Yusatsu Nao" src="../img/banner/banner2.jpg" style="width: 100%;"></img>
-                    </div>
-                </div>
-                <div class="blogpost">
-                    <div id="post-title">
-                        <a id="post-link-4a" class="post-title-title" href="#"><span id="post-title-4">N/A</span></a>
-                        <br class="post-div"/>
-                        <a id="post-date-4" class="post-title-date">N/A</a>
-                        <br/>
-                       <a class="post-title-author">Posted by Yusatsu Nao</a>
-                    </div>
-                    <div id="post-description">
-                        Hello again guys, welcome to my site. Today, I post something well, just what I said a few days ago on the last post. Right now, I will share an Anime Rainmeter. The main theme is Gi(a)rlish Number. This anime... <a id="post-link-4b" href="#">Read More →</a>
-                    </div>
-                    <div id="post-img">
-                        <img alt="Gi(a)rlish Number Anime Rainmeter by Yusatsu Nao" src="../img/banner/banner1.jpg" style="width: 100%;"></img>
-                    </div>
-                </div>
-                <div class="blogpost">
-                    <div id="post-title">
-                        <a id="post-link-3a" class="post-title-title" href="#"><span id="post-title-3">N/A</span></a>
-                        <br class="post-div"/>
-                        <a id="post-date-3" class="post-title-date">N/A</a>
-                        <br/>
-                        <a class="post-title-author">Posted by Yusatsu Nao</a>
-                    </div>
-                    <div id="post-description">
-                        This is the third post of this site. Well, I have a lot of things to do right now so I'm a bit busy. But of course, I'll not leave this site, I will post something on here. Not tomorrow... <a id="post-link-3b" href="#">Read More →</a>
-                    </div>
-                    <div id="post-img">
-                            <img alt="3rd Post of Yusatsu Nao's Blog" src="../img/banner/bannerblog.jpg" style="width: 100%;"></img>
-                    </div>
-                </div>
-                <div class="blogpost">
-                    <div id="post-title">
-                        <a id="post-link-2a" class="post-title-title" href="#"><span id="post-title-2">N/A</span></a>
-                        <br class="post-div"/>
-                        <a id="post-date-2" class="post-title-date">N/A</a>
-                        <br/>
-                        <a class="post-title-author">Posted by Yusatsu Nao</a>
-                    </div>
-                    <div id="post-description">
-                        Hello guys, Now my first LINE Theme is now released, do you like military things and other stuff like that, and you want your LINE become like stronger you must use this LINE Theme, you can buy & Download it ... <a id="post-link-2b" href="#">Read More →</a>
-                    </div>
-                    <div id="post-img">
-                            <img alt="Amry Commander LINE Theme by Yusatsu Nao" src="../img/banner/bannerlt.jpg" style="width: 100%;"></img>
-                    </div>
-                </div>
-                <div class="blogpost">
-                    <div id="post-title">
-                        <a id="post-link-1a" class="post-title-title" href="#"><span id="post-title-1">N/A</span></a>
-                        <br class="post-div"/>
-                        <a id="post-date-1" class="post-title-date">N/A</a>
-                        <br/>
-                        <a class="post-title-author">Posted by Yusatsu Nao</a>
-                    </div>
-                    <div id="post-description">
-                         Welcome, welcome guys to my official site. Thank you to you all for visiting my site here. In here you can get many things like a skins, icons, themes and etc. well, that is still in plan but, I will ... <a id="post-link-1b" href="#">Read More →</a>
-                    </div>
-                    <div id="post-img">
-                            <img alt="New site has been launched of Yusatsu Nao's Blog" src="../img/banner/bannerblog.jpg" style="width: 100%;"></img>
-                    </div>
-                </div>
+                <ul id="postlist">
+                    <li class="blog" ><a href="post1-new-site-has-been-launched">001 : <span id="post-date-1">N/A</span><br/>
+                    <span id="post-title-1">N/A</span></a></li>
+                    <li class="lt" ><a href="post2-army-commander-line-theme-released">002 : <span id="post-date-2">N/A</span><br/>
+                    <span id="post-title-2">N/A</span></a></li>
+                    <li class="blog" ><a href="post3-3rd-post">003 : <span id="post-date-3">N/A</span><br/>
+                    <span id="post-title-3">N/A</span></a></li>
+                    <li class="ar" ><a href="post4-giarlish-number-anime-rainmeter-released">004 : <span id="post-date-4">N/A</span><br/>
+                    <span id="post-title-4">N/A</span></a></li>
+                    <li class="lt" ><a href="post5-glowing-fragment-line-theme-released">005 : <span id="post-date-5">N/A</span><br/>
+                    <span id="post-title-5">N/A</span></a></li>
+                    <li class="ai" ><a href="post6-anime-icon-winter-2017-released">006 : <span id="post-date-6">N/A</span><br/>
+                    <span id="post-title-6">N/A</span></a></li>
+                    <li class="lt" ><a href="post7-race-driver-line-theme-released">007 : <span id="post-date-7">N/A</span><br/>
+                    <span id="post-title-7">N/A</span></a></li>
+                    <li class="blog" ><a href="post8-welcome-to-my-new-domain">008 : <span id="post-date-8">N/A</span><br/>
+                    <span id="post-title-8">N/A</span></a></li>
+                    <li class="ai" ><a href="post9-anime-icon-spring-2017-released">009 : <span id="post-date-9">N/A</span><br/>
+                    <span id="post-title-9">N/A</span></a></li>
+                    <li class="lt" ><a href="post10-glowing-fragment-ground-zero-line-theme-released">010 : <span id="post-date-10">N/A</span><br/>
+                    <span id="post-title-10">N/A</span></a></li>
+                    <li class="lt" ><a href="post11-glowing-fragment-scarlet-land-line-theme-released">011 : <span id="post-date-11">N/A</span><br/>
+                    <span id="post-title-11">N/A</span></a></li>
+                    <li class="lt" ><a href="post12-new-line-theme-with-low-price">012 : <span id="post-date-12">N/A</span><br/>
+                    <span id="post-title-12">N/A</span></a></li>
+                </ul>
+                <script>
+                function myFunction() {
+                    var input, filter, ul, li, a, i;
+                    input = document.getElementById("searchbox");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("postlist");
+                    li = ul.getElementsByTagName("li");
+                    for (i = 0; i < li.length; i++) {
+                        a = li[i].getElementsByTagName("a")[0];
+                        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                            li[i].style.display = "";
+                        } else {
+                            li[i].style.display = "none";
+
+                        }
+                    }
+                }
+                </script>
             </div>
             <div style="background: #0095FF;" class="bottom-border"></div>
         </section>
@@ -261,23 +127,13 @@
             <div class="credit">Copyright &#169; 2015 - <script type="text/javascript">document.write(new Date().getFullYear());</script> Yusatsu Nao</div>
         </footer>
         <script src="../js/jquery.min.js"></script>
-        <script type="text/javascript">
-            if (screen.width <= 699) {
-            document.location = "m-blog";
-            }
-        </script>
+        <script src="../js/blogdata.json"></script>
+        <script src="../js/blogdata.js"></script>
         <script src="../js/sidebar.js"></script>
-        <script type="text/javascript">
-            if (screen.width <= 699) {
-            document.location = "m-blog";
-            }
-        </script>
         <script>
             $("#leftside-navigation .sub-menu > a").click(function(e) {
                 $("#leftside-navigation ul ul").slideUp(), $(this).next().is(":visible") || $(this).next().slideDown(), e.stopPropagation()
             })
         </script>
-        <script src="../js/blogdata.json"></script>
-        <script src="../js/blogdata.js"></script>
-	</body>
+    </body>
 </html>
