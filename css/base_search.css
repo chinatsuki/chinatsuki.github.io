@@ -6,9 +6,10 @@ a {
 .navigation {
 	margin: 30px; }
 h1 {
-    font-weight: 900;
-    font-size: 25px;
-    color: #159957; }
+	font-weight: 900;
+	font-size: 25px;
+	text-align: center;
+	color: #0095FF; }
 h3 {
 	font-family: "PT Sans", sans-serif;
 	font-weight: 500;
