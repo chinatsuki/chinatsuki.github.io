@@ -43,10 +43,12 @@ img {
 
 /* Navigation CSS Code */
 #menu-logo {
-	background-image: url(../img/icon/yn.png);
-	background-position: left center;
-	background-repeat: no-repeat;
-	padding: 16px; /* Or size of icon + spacing */ }
+    background-image: url(../img/yn2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 24px;
+    margin: 0px auto;
+    background-size: 2.25em; }
 .circular-menu {
 	position: fixed;
 	bottom: 1em;
