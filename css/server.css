@@ -109,9 +109,9 @@ img {
 .circular-menu.active .menu-item:nth-child(1) {
 	transform: translate3d(0.5em,-7em,0); }
 .circular-menu.active .menu-item:nth-child(2) {
-	transform: translate3d(-3em,-6.5em,0); }
+	transform: translate3d(-3.25em,-6em,0); }
 .circular-menu.active .menu-item:nth-child(3) {
-	transform: translate3d(-6.5em,-3em,0); }
+	transform: translate3d(-6em,-3.25em,0); }
 .circular-menu.active .menu-item:nth-child(4) {
 	transform: translate3d(-7em,0.5em,0); }
 nav ul {
@@ -512,7 +512,10 @@ footer {
 	color: #fff;
 	text-align: center;
 	font-family: "Titillium Web", sans-serif;
-	padding: 10px; }
+	padding: 1rem 3rem;
+    background: #303030;
+    max-width: 70rem;
+    margin: 0px auto; }
 footer a {
 	color: #FFFFFF; }
 footer a:hover {
