@@ -178,6 +178,13 @@ h3 {
 	font-size: 1rem;
 	background: rgba(255, 255, 255, 0.8);
 	text-align: Justify; }
+#main-content-comment {
+    max-width: 74rem;
+    padding: 1rem 1rem;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.65); }
 ul.tab {
     list-style-type: none;
     margin: 0;
