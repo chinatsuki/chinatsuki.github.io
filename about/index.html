@@ -13,53 +13,16 @@
   	</head>
   	<body>
         <header>
-            <div class="header">
-                <nav class="navigation">
-                    <ul>
-                        <li><a href="#menu" class="menu">MENU</a></li>
-                    </ul>
-                </nav>
-                <div id="menu">
-                    <div id="sidebarmenu">
-                        <div class="logo">
-                            <img alt="Yusatsu Nao's Logo" src="../img/yn.png" onClick="location.href='../index'"/>
-                        </div>
-                        <div class="sidebar">
-                            <div id="leftside-navigation" class="nano">
-                                <ul>
-                                    <li>
-                                        <a href="../log">
-                                            <span>LOG</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="../blog">
-                                            <span>BLOG</span>
-                                        </a>
-                                    </li>
-                                    <li class="sub-menu">
-                                        <a href="javascript:void(0);">
-                                            <span>WORKS</span>
-                                        </a>
-                                        <ul id="works-sub">
-                                            <li><a href="../works">WORKS</a></li>
-                                            <li><a href="../works/anime-works">ANIME WORKS</a></li>
-                                            <li><a href="../works/line-works">LINE WORKS</a></li>
-                                            <li><a href="http://yusatsunao.deviantart.com/">DEVIANTART</a></li>
-                                            <li><a href="http://wattpad.com/yusatsunao">WATTPAD</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="sub-menu">
-                                        <a href="../about">
-                                            <span>ABOUT</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="overlay"></div>
+            <div id="circularMenu" class="circular-menu">
+                <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+                    <span id="menu-logo"></span>
+                </a>
+                <menu class="items-wrapper">
+                    <a href="../index" class="menu-item">Home</a>
+                    <a href="../blog" class="menu-item">Blog</a>
+                    <a href="..works" class="menu-item">Works</a>
+                    <a href="../about" class="menu-item">About</a>
+                </menu>
             </div>
         </header>
         <section>
@@ -68,7 +31,7 @@
                 <a class="about-title">ABOUT PAGE</a>
             </div>
         	<div class="main-content">
-                <h1>About</h1>
+                <h1>Yusatsu Nao</h1>
                 Hello everyone!
                 <br/>
                 My name is Yusatsu Nao and welcome to my site, I hope you enjoy your visit in this site. This is my official site and written using basic html and css also some javascript and json but I don't do the PHP pages because don't have time to study it. In this site I post everything I made like skins, wallpaper, Icons, story, design and others but, I also post my works in other place too like Deviantart and Wattpad. There is some game ID here, maybe you can add it and play with me together, about my detailed information I will tell it later.
@@ -95,7 +58,7 @@
                 <div class="gametitle">
                 Girls' Frontline UID : 11618
                 </div>
-                <div class="gametitle">
+                <div class="gametitle" style="display:none">
                 PUBG Mobile : Farise
                 </div>
                 <div class="gametitle" style="display:none">
