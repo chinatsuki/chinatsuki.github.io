@@ -10,4 +10,5 @@ var blog009 = '{ "title":"Anime Icon Spring 2017 Released", "date":"Tuesday, May
 var blog010 = '{ "title":"LINE THEME - Glowing Fragment Ground Zero Released", "date":"Wednesday, June 21, 2017", "link":"post10-glowing-fragment-ground-zero-line-theme-released" }';
 var blog011 = '{ "title":"LINE THEME - Glowing Fragment Scarlet Land Released", "date":"Saturday, July 22, 2017", "link":"post11-glowing-fragment-scarlet-land-line-theme-released" }';
 var blog012 = '{ "title":"New Line Theme with Low Price", "date":"Wednesday, January 10, 2018", "link":"post12-new-line-theme-with-low-price" }';
+var blog013 = '{ "title":"Girls Frontline Assistant Rainmeter Released", "date":"Thursday, March 28, 2019", "link":"post13-girls-frontline-assistant-rainmeter-released" }';
 var blog999 = '{ "title":"", "date":"", "link":"" }';
