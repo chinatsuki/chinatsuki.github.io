@@ -167,12 +167,12 @@ h3 {
 	margin: 0px auto;
 	font-size: 1rem;
 	background: transparent;}
-.formstitle, .creatortitle, .gametitle {
+.gametitle {
 	background: #FFFFFF;
 	color: #000000;
 	padding: 10px;
 	margin: 0px auto; }
-.contacttitle {
+.contacttitle, .creatortitle {
 	background: #FFFFFF;
 	color: #000000;
 	padding: 10px 10px 14px 60px;
