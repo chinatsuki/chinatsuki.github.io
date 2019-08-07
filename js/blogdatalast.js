@@ -1,0 +1,15 @@
+var post011 = '{ "title":"LINE THEME - Glowing Fragment Scarlet Land Released", "date":"Saturday, July 22, 2017", "link":"post11-glowing-fragment-scarlet-land-line-theme-released" }';
+var post012 = '{ "title":"New Line Theme with Low Price", "date":"Wednesday, January 10, 2018", "link":"post12-new-line-theme-with-low-price" }';
+var post013 = '{ "title":"Girls Frontline Assistant Rainmeter Released", "date":"Thursday, March 28, 2019", "link":"post13-girls-frontline-assistant-rainmeter-released" }';
+var blogpost1 = JSON.parse(post011);
+var blogpost2 = JSON.parse(post012);
+var blogpost3 = JSON.parse(post013);
+document.getElementById("title-1").innerHTML = blogpost1.title;
+document.getElementById("title-2").innerHTML = blogpost2.title;
+document.getElementById("title-3").innerHTML = blogpost3.title;
+document.getElementById("date-1").innerHTML = blogpost1.date;
+document.getElementById("date-2").innerHTML = blogpost2.date;
+document.getElementById("date-3").innerHTML = blogpost3.date;
+document.getElementById("link-1").href = blogpost1.link;
+document.getElementById("link-2").href = blogpost2.link;
+document.getElementById("link-3").href = blogpost3.link;
