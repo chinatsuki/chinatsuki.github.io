@@ -9,7 +9,7 @@
 html {
 	height: 100%; }
 body {
-	background: #222222 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAMAAADzN3VRAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAA2UExURXp6en19fXNzc3R0dGtra3l5eWxsbGlpaWhoaHt7e3Z2dm1tbXFxcWdnZ2VlZXd3d3BwcH5+fk4Uq/kAAAETSURBVCjPRVFZlsMgDBNgMJDQdu5/2ZFMaPMSPiysJQL41MpvIDf33s30+VvjMXikKsA1J95uLWAMoaVpthG7g0UbGOXSiNf5Wq4IhHNwY3kzCXEDCVs//RVOOCIPlzL5j7F5rR5MZtY+NQUAjDRtuZzGlsSlAF4IVwqxrK1Zx7ORkC9d7oSb91JxkJFtBb9QkzhTRMzSliTcFx3khAB4DLTQpWfeKI/ZQXMTHsn1V/weSUQVKWEafAPe+s2NJAly0RUiYLP+yhFjG5vXy3H6ODm0xIDuOH2cHOrjEj1OHyeHqKIPnD5ODlFJgci3j51DDZpC4tfHk0PZts6vj8jRAxBy+vjmiJqkM6G/t1291dx5/gG4IQ0U017zcAAAAABJRU5ErkJggg==') repeat;
+	background: linear-gradient(135deg, rgba(21, 21, 21, 0.09) 0%, rgba(21, 21, 21, 0.09) 38%,rgba(244, 244, 244, 0.09) 38%, rgba(244, 244, 244, 0.09) 100%),linear-gradient(45deg, rgba(14, 14, 14, 0.09) 0%, rgba(14, 14, 14, 0.09) 8%,rgba(107, 107, 107, 0.09) 8%, rgba(107, 107, 107, 0.09) 100%),linear-gradient(45deg, rgba(228, 228, 228, 0.06) 0%, rgba(228, 228, 228, 0.06) 36%,rgba(10, 10, 10, 0.06) 36%, rgba(10, 10, 10, 0.06) 100%),linear-gradient(45deg, rgba(16, 16, 16, 0.03) 0%, rgba(16, 16, 16, 0.03) 6%,rgba(197, 197, 197, 0.03) 6%, rgba(197, 197, 197, 0.03) 100%),linear-gradient(90deg, rgba(244, 244, 244, 0.1) 0%, rgba(244, 244, 244, 0.1) 73%,rgba(236, 236, 236, 0.1) 73%, rgba(236, 236, 236, 0.1) 100%),linear-gradient(45deg, rgba(187, 187, 187, 0.1) 0%, rgba(187, 187, 187, 0.1) 10%,rgba(23, 23, 23, 0.1) 10%, rgba(23, 23, 23, 0.1) 100%),linear-gradient(135deg, rgba(206, 206, 206, 0.01) 0%, rgba(206, 206, 206, 0.01) 79%,rgba(111, 111, 111, 0.01) 79%, rgba(111, 111, 111, 0.01) 100%),linear-gradient(0deg, rgba(211, 211, 211, 0.01) 0%, rgba(211, 211, 211, 0.01) 87%,rgba(78, 78, 78, 0.01) 87%, rgba(78, 78, 78, 0.01) 100%),linear-gradient(90deg, rgba(109, 109, 109, 0.07) 0%, rgba(109, 109, 109, 0.07) 55%,rgba(110, 110, 110, 0.07) 55%, rgba(110, 110, 110, 0.07) 100%),linear-gradient(90deg, rgb(2, 2, 2),rgb(84, 84, 84));
 	font-family: "Titillium Web", sans-serif;
 	margin: 0px;
 	height: 100%;
@@ -116,88 +116,7 @@ img {
 	transform: translate3d(-6em,-3.25em,0); }
 .circular-menu.active .menu-item:nth-child(4) {
 	transform: translate3d(-7em,0.5em,0); }
-nav ul {
-	margin: 0;
-	padding: 0; }
-nav ul li {
-	display: inline-block; }
-nav ul li a {
-	font-size: 14px;
-	font-weight: 600;
-	padding: 35px 10px 10px 10px;
-	border-bottom: 4px solid transparent;
-	margin: 0px;
-	font-family: Arial;
-	color: #fff; }
-nav ul li:hover a {
-	color: #0095FF;
-	border-bottom: 4px solid #0095FF;
-		-webkit-transition: all 0.3s ease 0s;
-		-moz-transition: all 0.3s ease 0s;
-		transition: all 0.3s ease 0s; }
-nav ul li:hover > ul {
-	display: block; }
-nav li ul {
-	display: none;
-	position: absolute;
-	top: 98px;
-	text-align: left;
-	background-color: #fff;
-	border: 1px solid #eee;
-	border-top: 4px solid #FF6B5C;
-	z-index: 99;
-	min-width: 165px;
-	max-width: 195px; }
-nav li ul li {
-	display: block; }
-nav li ul li a {
-	color:  #888888 !important;
-	margin: 0 20px;
-	display: block;
-	padding: 10px 0;
-	border-bottom: 4px solid #eee !important; }	
-nav li ul li a:hover {
-	color: #FF6B5C !important;
-	border-bottom-width: 1px !important; }
-nav li ul li:last-child a, nav .sub li:last-child a:hover {
-	border-bottom-width: 0 !important; }
-nav ul li:hover .marrow {
-	color: #FF6B5C; }
-.mobile-menu {
-    height: 100%;
-    width: 100%;
-    display: none;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #373737; }
-.mobile-menu-content {
-    position: relative;
-    width: 100%;
-    text-align: center;
-    margin-top: 5px; }
-.mobile-menu a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s; }
-.mobile-menu a:hover, .mobile-menu a:focus {
-    color: #f1f1f1; }
-.mobile-menu .closebtn {
-	position: absolute;
-	top: 20px;
-	right: 45px;
-	font-size: 60px; }
-@media screen and (max-height: 450px) {
-	.mobile-menu a {font-size: 20px}
-	.mobile-menu .closebtn {
-		font-size: 40px;
-		top: 15px;
-		right: 35px; } }
-		
+	
 /* Sidebar CSS Code */
 #menu, .mobile-menu-content {
 	font-family: "Titillium Web", sans-serif;
