@@ -116,7 +116,42 @@ img {
 	transform: translate3d(-6em,-3.25em,0); }
 .circular-menu.active .menu-item:nth-child(4) {
 	transform: translate3d(-7em,0.5em,0); }
-	
+
+.mobile-menu {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #373737; }
+.mobile-menu-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px; }
+.mobile-menu a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s; }
+.mobile-menu a:hover, .mobile-menu a:focus {
+    color: #f1f1f1; }
+.mobile-menu .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px; }
+@media screen and (max-height: 450px) {
+	.mobile-menu a {font-size: 20px}
+	.mobile-menu .closebtn {
+		font-size: 40px;
+		top: 15px;
+		right: 35px; } }
+
 /* Sidebar CSS Code */
 #menu, .mobile-menu-content {
 	font-family: "Titillium Web", sans-serif;
